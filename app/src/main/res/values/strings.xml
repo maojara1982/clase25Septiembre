@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">clase25Septiembre</string>3
+    <string name="irgoogle">Ir a google</string>
+    <string name="iralarma">Ir a alarma</string>
+    <string name="irllamada">Ir a llamada</string>
+    <string name="irtempo">Ir a temporizador</string>
+    <string name="iracamara">Ir a camara</string>
+
+</resources>
