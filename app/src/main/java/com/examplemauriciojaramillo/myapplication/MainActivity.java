@@ -52,7 +52,12 @@ public class MainActivity extends AppCompatActivity {
         llamada.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dialPhoneNumber("3174390055");
+                String phoneNumber;
+                Intent llamada = new Intent(Intent.ACTION_DIAL);
+                llamada.setData(Uri.parse("tel:"+ "3174390055"));
+                if (llamada.resolveActivity(getPackageManager())!=null) {
+                    startActivity(llamada);
+                }
 
             }
         });
